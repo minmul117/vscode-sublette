@@ -272,16 +272,6 @@
 			}
 		},
 		{
-			"name": "Function Declarations",
-			"scope": [
-				"entity.name.function",
-				"support.function",
-			],
-			"settings": {
-				"foreground": "#5e7"
-			}
-		},
-		{
 			"name": "String and Numeric types",
 			"scope": [
 				"constant.numeric",
@@ -312,6 +302,7 @@
 			}
 		},
 		{
+			"name": "Python import control keyword",
 			"scope": [
 				"keyword.control.import.python",
 			],
@@ -319,5 +310,53 @@
 				"foreground": "#f7c"
 			}
 		},
+		{
+			"name": "Python Constant",
+			"scope": "constant.language.python",
+			"settings": {
+				"foreground": "#4ee",
+			}
+		},
+		{
+			"name": "Python Functions, Types, Builtin Functions",
+			"scope": [
+				"meta.function.python",
+				"support.type.python",
+				"support.function.builtin.python"
+			],
+			"settings": {
+				"foreground": "#4ee"
+			}
+		},
+		{
+			"name": "Python Punctuations and Operators",
+			"scope": [
+				"keyword.operator",
+				"punctuation.section",
+				"punctuation.separator",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python",
+			],
+			"settings": {
+				"foreground": "#ccced0ff",
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#ccced0ff",
+			}
+		},
+		{
+			"name": "Python Exceptions",
+			"scope": [
+				"support.type.exception.python"
+			],
+			"settings": {
+				"foreground": "#5e7"
+			}
+		}
 	]
 }
