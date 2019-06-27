@@ -6,7 +6,7 @@
     "engines": {
         "vscode": "^1.35.0"
     },
-    "publisher": "sublette",
+    "publisher": "minmul117",
     "icon": "images/vscode-sublette.png",
     "repository": {
         "type": "git",
