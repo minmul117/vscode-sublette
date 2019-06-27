@@ -197,16 +197,16 @@
 		"titleBar.inactiveBackground": "#253045",
 		"titleBar.inactiveForeground": "#405570",
 		"titleBar.border": "#405570",
-		/*
 		// Notification Colors — Notification toasts slide up from the bottom-right of the workbench.
-		"notificationCenter.border": "",
-		"notificationCenterHeader.foreground": "",
-		"notificationCenterHeader.background": "",
-		"notificationToast.border": "",
-		"notifications.foreground": "",
-		"notifications.background": "",
-		"notifications.border": "",
-		"notificationLink.foreground": "",
+		"notificationCenter.border": "#f7c",
+		"notificationCenterHeader.foreground": "#202535",
+		"notificationCenterHeader.background": "#f7c",
+		"notificationToast.border": "#f7c",
+		"notifications.foreground": "#ccced0",
+		"notifications.background": "#253045",
+		"notifications.border": "#253045",
+		// "notificationLink.foreground": "",
+		/*
 		// Extensions
 		"extensionButton.prominentForeground": "",
 		"extensionButton.prominentBackground": "",
