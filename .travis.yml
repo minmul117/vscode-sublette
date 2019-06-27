@@ -1,1 +1,13 @@
 language: node_js
+branches:
+  only:
+    - master
+  
+install:
+  - npm install -g vsce
+  - echo "Login publisher..."
+  - echo $PUBLISHER_KEY | vsce login $PUBLISHER_NAME
+
+script:
+  - echo "Publish VSCode package..."
+  - vsce publish
