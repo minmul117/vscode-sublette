@@ -233,8 +233,8 @@
 		"terminal.ansiWhite": "#f5f5da",
 		"terminal.ansiYellow": "#fd8",
 		"terminal.selectionBackground": "#405570",
-		"terminalCursor.background": "#ccced0",
-		"terminalCursor.foreground": "#202535",
+		"terminalCursor.background": "#202535",
+		"terminalCursor.foreground": "#ccced0",
 		/*
 		// Debug
 		"debugToolBar.background": "",
