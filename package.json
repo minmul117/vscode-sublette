@@ -2,7 +2,7 @@
     "name": "sublette",
     "displayName": "Sublette",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.35.0"
     },
@@ -10,7 +10,7 @@
     "icon": "images/vscode-sublette.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/minmul117/vscode-sublette"  
+        "url": "https://github.com/minmul117/vscode-sublette"
     },
     "categories": [
         "Themes"
