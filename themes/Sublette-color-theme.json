@@ -189,8 +189,8 @@
 		"statusBar.noFolderBorder": "#405570",
 		"statusBarItem.prominentBackground": "#fd8",
 		"statusBarItem.prominentHoverBackground": "#ff7",
-		"statusBarItem.activeBackground": "#00000044",
-		"statusBarItem.hoverBackground": "#00000044",
+		"statusBarItem.activeBackground": "#00000022",
+		"statusBarItem.hoverBackground": "#00000022",
 		// Title Bar Colors
 		"titleBar.activeBackground": "#202535",
 		"titleBar.activeForeground": "#ccced0",
