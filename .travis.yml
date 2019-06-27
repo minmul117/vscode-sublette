@@ -5,9 +5,7 @@ branches:
   
 install:
   - npm install -g vsce
-  - echo "Login publisher..."
-  - echo $PUBLISHER_KEY | vsce login $PUBLISHER_NAME
 
 script:
   - echo "Publish VSCode package..."
-  - vsce publish
+  - vsce publish -p $PUBLISHER_KEY
