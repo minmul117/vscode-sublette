@@ -303,7 +303,17 @@
 			"settings": {
 				"foreground": "#fd8"
 			}
-		},
+        },
+        {
+            "name": "JSON/YAML simple configuration",
+            "scope": [
+                "entity.name.tag",
+                "support.type.property-name"
+            ],
+            "settings": {
+                "foreground": "#4ee"
+            }
+        },
 		{
 			"name": "Python import control keyword",
 			"scope": [
