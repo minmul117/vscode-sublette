@@ -6,6 +6,11 @@
     "engines": {
         "vscode": "^1.35.0"
     },
+    "publisher": "sublette",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/minmul117/vscode-sublette"  
+    },
     "categories": [
         "Themes"
     ],
