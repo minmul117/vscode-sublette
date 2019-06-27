@@ -87,8 +87,8 @@
 		"editor.foreground": "#ccced0",
 		"editorLineNumber.foreground": "#405570",
 		"editorLineNumber.activeForeground": "#96a0aa",
-		"editorCursor.background": "#ccced0",
-		"editorCursor.foreground": "#202535",
+		"editorCursor.background": "#202535",
+		"editorCursor.foreground": "#ccced0",
 		"editor.selectionBackground": "#405570",
 		// "editor.selectionForeground": "",
 		"editor.inactiveSelectionBackground": "#347",
@@ -190,13 +190,13 @@
 		"statusBarItem.hoverBackground": "#ccced0",
 		"statusBarItem.prominentBackground": "#fd8",
 		"statusBarItem.prominentHoverBackground": "#ccced0",
+		// Title Bar Colors
+		"titleBar.activeBackground": "#202535",
+		"titleBar.activeForeground": "#ccced0",
+		"titleBar.inactiveBackground": "#253045",
+		"titleBar.inactiveForeground": "#405570",
+		"titleBar.border": "#405570",
 		/*
-		// Title Bar Colors (macOS)
-		"titleBar.activeBackground": "",
-		"titleBar.activeForeground": "",
-		"titleBar.inactiveBackground": "",
-		"titleBar.inactiveForeground": "",
-		"titleBar.border": "",
 		// Notification Colors — Notification toasts slide up from the bottom-right of the workbench.
 		"notificationCenter.border": "",
 		"notificationCenterHeader.foreground": "",
