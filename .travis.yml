@@ -4,7 +4,7 @@ node_js:
 
 branches:
   only:
-    - master
+    - tag
   
 install:
   - npm install -g vsce
