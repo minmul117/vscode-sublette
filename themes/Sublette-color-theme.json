@@ -98,7 +98,7 @@
         "editor.findMatchBackground": "#555045",
         "editor.findMatchHighlightBorder": "#555045",
         "editor.findMatchHighlightBackground": "#555045",
-        "editor.findRangeHighlightBackground": "#555045",
+        "editor.findRangeHighlightBackground": "#253045",
         "editor.hoverHighlightBackground": "#405570",
         "editor.lineHighlightBackground": "#253045",
         "editor.lineHighlightBorder": "#253045",
