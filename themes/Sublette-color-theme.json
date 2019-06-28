@@ -15,9 +15,9 @@
         // Text Colors — Colors inside a text document, such as the welcome page.
         "textLink.foreground": "#7bf",
         // Button Control — A set of colors for button widgets such as Open Folder button in the Explorer of a new window.
-        "button.background": "#58f",
+        "button.background": "#347",
         "button.foreground": "#ccced0",
-        "button.hoverBackground": "#7bf",
+        "button.hoverBackground": "#58f",
         // Dropdown Control — A set of colors for all dropdown widgets such as in the Integrated Terminal or the Output panel. Note that the dropdown control is not used on macOS currently.
         "dropdown.background": "#253045",
         "dropdown.listBackground": "#202535",
