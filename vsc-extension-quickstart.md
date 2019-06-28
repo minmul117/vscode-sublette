@@ -22,6 +22,10 @@
 
 To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
 
+## Tips
+* Using [Inspect TM scopes](https://code.visualstudio.com/blogs/2017/02/08/syntax-highlighting-optimizations) will help you to find appropriate scope for syntax highlighting.
+* VS Code theme [Theme Color](https://code.visualstudio.com/api/references/theme-color) shows list of components of VS Code UI itself.
+
 ## Install your extension
 
 * To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
