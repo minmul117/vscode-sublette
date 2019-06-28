@@ -924,13 +924,6 @@
             }
         },
         {
-            "name": "Python: Support.exception",
-            "scope": "support.type.exception.python",
-            "settings": {
-                "foreground": "#4ee"
-            }
-        },
-        {
             "name": "Ruby: Special Method",
             "scope": "keyword.other.special-method.ruby",
             "settings": {
