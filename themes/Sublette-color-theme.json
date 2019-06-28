@@ -57,7 +57,7 @@
         // Activity Bar — The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
         "activityBar.background": "#202535",
         "activityBar.dropBackground": "#405570",
-        "activityBar.foreground": "#405570",
+        "activityBar.foreground": "#96a0aa",
         "activityBar.border": "#202535",
         "activityBarBadge.background": "#e57",
         "activityBarBadge.foreground": "#ffe",
