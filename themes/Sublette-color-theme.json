@@ -46,7 +46,7 @@
         // Lists and Trees — Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not.
         "list.activeSelectionBackground": "#58f",
         "list.activeSelectionForeground": "#202535",
-        "list.dropBackground": "#f0f",
+        "list.dropBackground": "#202535",
         "list.focusBackground": "#4ee",
         "list.focusForeground": "#202535",
         "list.hoverBackground": "#202535",
