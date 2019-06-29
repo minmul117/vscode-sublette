@@ -15,9 +15,9 @@
         // Text Colors — Colors inside a text document, such as the welcome page.
         "textLink.foreground": "#7bf",
         // Button Control — A set of colors for button widgets such as Open Folder button in the Explorer of a new window.
-        "button.background": "#58f",
+        "button.background": "#347",
         "button.foreground": "#ccced0",
-        "button.hoverBackground": "#7bf",
+        "button.hoverBackground": "#58f",
         // Dropdown Control — A set of colors for all dropdown widgets such as in the Integrated Terminal or the Output panel. Note that the dropdown control is not used on macOS currently.
         "dropdown.background": "#253045",
         "dropdown.listBackground": "#202535",
@@ -45,19 +45,19 @@
         "badge.background": "#405570",
         // Lists and Trees — Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not.
         "list.activeSelectionBackground": "#58f",
-        "list.activeSelectionForeground": "#ccced0",
-        "list.dropBackground": "#f0f",
-        "list.focusBackground": "#58f",
-        "list.focusForeground": "#ccced0",
-        "list.hoverBackground": "#405570",
+        "list.activeSelectionForeground": "#202535",
+        "list.dropBackground": "#202535",
+        "list.focusBackground": "#4ee",
+        "list.focusForeground": "#202535",
+        "list.hoverBackground": "#202535",
         "list.hoverForeground": "#ccced0",
         "list.inactiveSelectionBackground": "#347",
         "list.inactiveSelectionForeground": "#ccced0",
-        "list.inactiveFocusBackground": "#405570",
+        "list.inactiveFocusBackground": "#356",
         // Activity Bar — The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
         "activityBar.background": "#202535",
         "activityBar.dropBackground": "#405570",
-        "activityBar.foreground": "#405570",
+        "activityBar.foreground": "#96a0aa",
         "activityBar.border": "#202535",
         "activityBarBadge.background": "#e57",
         "activityBarBadge.foreground": "#ffe",
