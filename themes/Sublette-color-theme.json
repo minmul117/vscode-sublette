@@ -464,17 +464,6 @@
             }
         },
         {
-            "name": "Arithmetical, Assignment, Comparision Operators",
-            "scope": [
-                "keyword.operator.comparison",
-                "keyword.operator.assignment",
-                "keyword.operator.arithmetic"
-            ],
-            "settings": {
-                "foreground": "#ff7"
-            }
-        },
-        {
             "name": "Control Flow / Special keywords",
             "scope": [
                 "keyword.control",
@@ -487,23 +476,11 @@
         },
         {
             "name": "Function name",
-            "scope": "entity.name.function",
+            "scope": [
+                "entity.name.function",
+            ],
             "settings": {
                 "foreground": "#4ee"
-            }
-        },
-        {
-            "name": "Library function",
-            "scope": "support.function",
-            "settings": {
-                "foreground": "#fd8"
-            }
-        },
-        {
-            "name": "Continuation",
-            "scope": "punctuation.separator.continuation",
-            "settings": {
-                "foreground": "#e57"
             }
         },
         {
@@ -525,14 +502,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#7bf"
-            }
-        },
-        {
-            "name": "Exception",
-            "scope": "support.type.exception",
-            "settings": {
-                "foreground": "#f7c"
+                "foreground": "#5e7"
             }
         },
         {
@@ -803,8 +773,8 @@
         {
             "name": "Python Functions, Types, Builtin Functions",
             "scope": [
-                "meta.function.python",
                 "support.type.python",
+                "support.function.builtin.python"
             ],
             "settings": {
                 "foreground": "#4ee"
