@@ -276,17 +276,17 @@
                 "comment",
                 "meta.documentation",
                 "string.docstring",
+                "punctuation.definition.comment",
             ],
             "settings": {
+                "fontStyle": "italic",
                 "foreground": "#58f"
             }
         },
         {
             "name": "String",
             "scope": [
-                "string",
-                "string.tag",
-                "string.value",
+                "string"
             ],
             "settings": {
                 "foreground": "#e57"
@@ -307,164 +307,6 @@
             }
         },
         {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "settings": {
-                "foreground": "#e57"
-            }
-        },
-        {
-            "name": "Variable",
-            "scope": "variable",
-            "settings": {
-                "foreground": "#fd8"
-            }
-        },
-        {
-            "name": "Special Variables",
-            "scope": [
-                "variable.other.readwrite",
-                "variable.other.object",
-                "variable.other.constant"
-            ],
-            "settings": {
-                "foreground": "#f5f5da"
-            }
-        },
-        {
-            "name": "Functions as variables",
-            "scope": "variable.function",
-            "settings": {
-                "foreground": "#4ee"
-            }
-        },
-        {
-            "name": "Classes",
-            "scope": [
-                "variable.language.this",
-                "variable.language.super"
-            ],
-            "settings": {
-                "foreground": "#d33682"
-            }
-        },
-        {
-            "name": "Keyword",
-            "scope": "keyword",
-            "settings": {
-                "foreground": "#fd8"
-            }
-        },
-        {
-            "name": "Import",
-            "scope": [
-                "meta.import.keyword",
-                "keyword.import",
-                "keyword.package",
-                "keyword.module",
-                "keyword.control.import",
-                "keyword.control.import.from",
-                "keyword.other.import",
-                "keyword.control.at-rule.include",
-                "keyword.control.at-rule.import"
-            ],
-            "settings": {
-                "foreground": "#f7c"
-            }
-        },
-        {
-            "name": "Operator",
-            "scope": [
-                "keyword.operator",
-            ],
-            "settings": {
-                "foreground": "#ccced0ff",
-            }
-        },
-        {
-            "name": "Punctuations",
-            "scope": [
-                "punctuation.section",
-                "punctuation.separator",
-            ],
-            "settings": {
-                "foreground": "#ccced0ff",
-            }
-        },
-        {
-            "scope": [
-                "variable.parameter"
-            ],
-            "settings": {
-                "foreground": "#ccced0ff",
-            }
-        },
-        {
-            "name": "Arithmetical, Assignment, Comparision Operators",
-            "scope": [
-                "keyword.operator.comparison",
-                "keyword.operator.assignment",
-                "keyword.operator.arithmetic"
-            ],
-            "settings": {
-                "foreground": "#ff7"
-            }
-        },
-        {
-            "name": "Storage",
-            "scope": "storage",
-            "settings": {
-                "foreground": "#fd8"
-            }
-        },
-        {
-            "name": "Control Flow / Special keywords",
-            "scope": [
-                "keyword.control",
-                "keyword.operator.logical",
-                "keyword.other.operator",
-            ],
-            "settings": {
-                "foreground": "#fd8"
-            }
-        },
-        {
-            "name": "Class",
-            "scope": [
-                "keyword.control.class",
-                "meta.class",
-                "entity.name.class",
-                "entity.name.type.class"
-            ],
-            "settings": {
-                "foreground": "#4ee"
-            }
-        },
-        {
-            "name": "Library class",
-            "scope": [
-                "support.type",
-                "support.class"
-            ],
-            "settings": {
-                "foreground": "#7bf"
-            }
-        },
-        {
-            "name": "Function name",
-            "scope": "entity.name.function",
-            "settings": {
-                "foreground": "#4ee"
-            }
-        },
-        {
-            "name": "Variable start",
-            "scope": "punctuation.definition.variable",
-            "settings": {
-                "foreground": "#fd8"
-            }
-        },
-        {
             "name": "Built-in constant",
             "scope": [
                 "constant.language",
@@ -472,16 +314,6 @@
             ],
             "settings": {
                 "foreground": "#4ee"
-            }
-        },
-        {
-            "name": "Support.construct",
-            "scope": [
-                "support.function.construct",
-                "keyword.other.new"
-            ],
-            "settings": {
-                "foreground": "#e57"
             }
         },
         {
@@ -495,38 +327,20 @@
             }
         },
         {
-            "name": "Library function",
-            "scope": "support.function",
+            "name": "Punctuations",
+            "scope": [
+                "punctuation.section",
+                "punctuation.separator",
+            ],
             "settings": {
-                "foreground": "#fd8"
+                "foreground": "#ccced0ff",
             }
         },
         {
-            "name": "Continuation",
-            "scope": "punctuation.separator.continuation",
+            "name": "Number",
+            "scope": "constant.numeric",
             "settings": {
                 "foreground": "#e57"
-            }
-        },
-        {
-            "name": "Storage Type",
-            "scope": "storage.type",
-            "settings": {
-                "foreground": "#fd8"
-            }
-        },
-        {
-            "name": "Exception",
-            "scope": "support.type.exception",
-            "settings": {
-                "foreground": "#f7c"
-            }
-        },
-        {
-            "name": "Special",
-            "scope": "keyword.other.special-method",
-            "settings": {
-                "foreground": "#f7c"
             }
         },
         {
@@ -582,20 +396,113 @@
             }
         },
         {
-            "name": "Other: Removal",
+            "name": "Variable",
             "scope": [
-                "other.package.exclude",
-                "other.remove"
+                "variable",
+                "punctuation.definition.variable",
             ],
             "settings": {
-                "foreground": "#e57"
+                "foreground": "#ccced0"
             }
         },
         {
-            "name": "Other: Add",
-            "scope": "other.add",
+            "name": "Functions as variables",
+            "scope": "variable.function",
             "settings": {
-                "foreground": "#e57"
+                "foreground": "#ccced0"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#fd8"
+            }
+        },
+        {
+            "name": "Import",
+            "scope": [
+                "meta.import.keyword",
+                "keyword.import",
+                "keyword.package",
+                "keyword.module",
+                "keyword.control.import",
+                "keyword.control.import.from",
+                "keyword.other.import",
+                "keyword.control.at-rule.include",
+                "keyword.control.at-rule.import",
+                "keyword.control.using",
+            ],
+            "settings": {
+                "foreground": "#f7c"
+            }
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "settings": {
+                "foreground": "#fd8"
+            }
+        },
+        {
+            "name": "Operator",
+            "scope": [
+                "keyword.operator",
+            ],
+            "settings": {
+                "foreground": "#ccced0ff",
+            }
+        },
+        
+        {
+            "name": "Parameter",
+            "scope": [
+                "variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#ccced0ff",
+            }
+        },
+        {
+            "name": "Control Flow / Special keywords",
+            "scope": [
+                "keyword.control",
+                "keyword.operator.logical",
+                "keyword.other.operator",
+            ],
+            "settings": {
+                "foreground": "#fd8"
+            }
+        },
+        {
+            "name": "Function name",
+            "scope": [
+                "entity.name.function",
+            ],
+            "settings": {
+                "foreground": "#4ee"
+            }
+        },
+        {
+            "name": "Class",
+            "scope": [
+                "keyword.control.class",
+                "meta.class",
+                "entity.name.class",
+                "entity.name.type.class"
+            ],
+            "settings": {
+                "foreground": "#4ee"
+            }
+        },
+        {
+            "name": "Library class",
+            "scope": [
+                "support.type",
+                "support.class"
+            ],
+            "settings": {
+                "foreground": "#5e7"
             }
         },
         {
@@ -682,13 +589,6 @@
             }
         },
         {
-            "name": "HTML: Tag name",
-            "scope": "text.html.derivative entity.name.tag.html",
-            "settings": {
-                "foreground": "#fd8"
-            }
-        },
-        {
             "name": "Go: Function name",
             "scope": "source.go entity.name.function",
             "settings": {
@@ -700,6 +600,13 @@
             "scope": "source.go support.function",
             "settings": {
                 "foreground": "#ccced0"
+            }
+        },
+        {
+            "name": "HTML: Tag name",
+            "scope": "text.html.derivative entity.name.tag.html",
+            "settings": {
+                "foreground": "#fd8"
             }
         },
         {
@@ -791,22 +698,6 @@
             }
         },
         {
-            "name": "Julia: using",
-            "scope": "source.julia keyword.control.using",
-            "settings": {
-                "foreground": "#f7c"
-            }
-        },
-        {
-            "name": "Julia: support function",
-            "scope": [
-                "source.julia support.function"
-            ],
-            "settings": {
-                "foreground": "#5e7"
-            }
-        },
-        {
             "name": "Markdown heading",
             "scope": [
                 "markup.heading",
@@ -880,25 +771,8 @@
             }
         },
         {
-            "name": "Python import control keyword",
-            "scope": [
-                "keyword.control.import.python",
-            ],
-            "settings": {
-                "foreground": "#f7c"
-            }
-        },
-        {
-            "name": "Python Constant",
-            "scope": "constant.language.python",
-            "settings": {
-                "foreground": "#4ee",
-            }
-        },
-        {
             "name": "Python Functions, Types, Builtin Functions",
             "scope": [
-                "meta.function.python",
                 "support.type.python",
                 "support.function.builtin.python"
             ],
@@ -914,15 +788,6 @@
             ],
             "settings": {
                 "foreground": "#ccced0ff",
-            }
-        },
-        {
-            "name": "Python Exceptions",
-            "scope": [
-                "support.type.exception.python"
-            ],
-            "settings": {
-                "foreground": "#5e7"
             }
         },
         {
