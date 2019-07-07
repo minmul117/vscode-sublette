@@ -4,6 +4,11 @@ All notable changes to the "sublette" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.2.3] - 2019-07-07
+
+### Fixed
+- Simplify some distracted colors by [@appleparan](https://github.com/appleparan)
+
 ## [0.2.2] - 2019-06-28
 
 ### Added
