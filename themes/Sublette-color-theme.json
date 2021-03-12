@@ -45,10 +45,9 @@
         "badge.background": "#405570",
         // Lists and Trees — Colors for list and trees like the File Explorer. An active list/tree has keyboard focus, an inactive does not.
         "list.activeSelectionBackground": "#58f",
-        "list.activeSelectionForeground": "#202535",
         "list.dropBackground": "#202535",
-        "list.focusBackground": "#4ee",
-        "list.focusForeground": "#202535",
+        "quickInputList.focusBackground": "#202035",
+        "list.focusForeground": "#4ee",
         "list.hoverBackground": "#202535",
         "list.hoverForeground": "#ccced0",
         "list.inactiveSelectionBackground": "#347",
@@ -56,7 +55,7 @@
         "list.inactiveFocusBackground": "#356",
         // Activity Bar — The Activity Bar is displayed either on the far left or right of the workbench and allows fast switching between views of the Side Bar.
         "activityBar.background": "#202535",
-        "activityBar.dropBackground": "#405570",
+        "activityBar.dropBorder": "#405570",
         "activityBar.foreground": "#96a0aa",
         "activityBar.border": "#202535",
         "activityBarBadge.background": "#e57",
@@ -175,7 +174,7 @@
         // Panel Colors — Panels are shown below the editor area and contain views like Output and Integrated Terminal.
         "panel.background": "#202535",
         "panel.border": "#58f",
-        "panel.dropBackground": "#253045",
+        "panel.dropBorder": "#253045",
         "panelTitle.activeBorder": "#58f",
         "panelTitle.activeForeground": "#ccced0",
         "panelTitle.inactiveForeground": "#96a0aa",
@@ -453,7 +452,7 @@
                 "foreground": "#ccced0ff",
             }
         },
-        
+
         {
             "name": "Parameter",
             "scope": [
@@ -949,7 +948,7 @@
                 "foreground": "#e57"
             }
         },
-        
+
         {
             "name": "Shell: meta scope in loop",
             "scope": [
