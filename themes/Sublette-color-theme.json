@@ -84,8 +84,8 @@
         // Editor Colors — for syntax highlighting, use the editor.tokenColorCustomizations setting. All other editor colors are listed here
         "editor.background": "#202535",
         "editor.foreground": "#ccced0",
-        "editorLineNumber.foreground": "#405570",
-        "editorLineNumber.activeForeground": "#96a0aa",
+        "editorLineNumber.foreground": "#96a0aa",
+        "editorLineNumber.activeForeground": "#ccced0",
         "editorCursor.background": "#202535",
         "editorCursor.foreground": "#ccced0",
         "editor.selectionBackground": "#405570",
